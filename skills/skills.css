@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Pushster&family=Righteous&family=Space+Mono&family=Special+Elite&family=Work+Sans:wght@400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Serif:wght@500&family=Merriweather:ital@0;1&family=Pushster&family=Righteous&family=Space+Mono&family=Special+Elite&family=Work+Sans:wght@400;500;800&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  
+}
+
+.logoRow{
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo{
+    margin: 25px auto;
+  
+    
+}
+
+.introHeading{
+    font-family: 'Special Elite', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+
+}
+
+
+
+.menuBar{
+    background-color: rgb(222, 53, 53);
+    height: 200px;
+    width: 800px;
+    border: solid 2px black;
+    border-radius: 100px;
+    transition: 1s ease;
+    margin: 20px auto;
+
+
+}
+
+.menuBarChange{
+    
+    height: 0px;
+}
+
+
+.hamburgur{
+    
+    height: fit-content;
+    width: 50px;
+    text-align: center;
+    margin: 25px auto;
+    cursor: pointer;
+    
+}
+
+.box{
+    background-color: black;
+    margin: 2px;
+    height: 10px;
+    border-radius: 15px;
+    transition: 1s ease;
+    
+}
+
+
+.box1change{
+    transform:translateY(16px) rotate(-45deg);
+    transition: 2s ease;
+    background-color:rgb(222, 53, 53);
+}
+
+.box3change{
+   display: none;
+   
+}
+
+.box2change{
+    transform:translateY(4px) rotate(45deg);
+    transition: 2s ease;
+    background-color:rgb(222, 53, 53);
+}
+
+.menu
+{
+    font-family: 'IBM Plex Serif', serif;
+    color: white;
+    list-style: none;
+    position: relative;
+    left: 86px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    top: 26px;
+    font-size: 25px;
+    font-weight: bold;
+   display: none;
+   
+    
+    
+}
+
+.menuItem{
+   margin: 10px;
+   padding: 5px;
+   border: 2px solid white;
+   border-radius: 11px;
+   cursor: pointer;
+}
+
+.menuItem:hover{
+    padding: 5px;
+    background-color: white;
+   color:black ;
+   border-radius: 11px;
+}
+
+
+
+.CVdownload{
+    margin: 30px auto;
+    border-radius: 8px;
+    border: 2px solid;
+    color: rgb(222, 53, 53);
+    font-weight: 900;
+    display: none;
+}
+
+.CVdownload:hover{
+    color: black;
+    background-color: white;
+}
+
+.html, .css, .js, .bootstrap{
+    
+    width: 100%;
+  
+    margin-top: 60px;
+}
+
+.progressHtml,.progressCss,.progressBootstrap,.progressJs{
+    
+    height: 30px;
+    width: 90%;
+    border: solid black 2px;
+   border-radius: 16px;
+    position: absolute;
+    right: 60px;
+    margin-left: 50px;
+    
+}
+.actualproboot{
+    background-color:rgb(71, 47, 204) ;
+    width: 0%;
+    margin-top: 3px;
+    transition: 5s ease;
+    border-radius: 16px;
+    text-align: end;
+}
+
+.actuaproChangeboot{
+    
+    width: 90%; 
+    transition: 10s ease;
+}
+
+.actualprohtml{
+    background-color:orangered ;
+    width: 0%;
+    margin-top: 3px;
+    transition: 5s ease;
+    border-radius: 16px;
+    text-align: end;
+}
+
+.actuaproChangehtml{
+    
+    width: 100%; 
+    transition: 10s ease;
+}
+
+.actualprocss{
+    background-color:rgb(71, 47, 204)  ;
+    width: 0%;
+    margin-top: 3px;
+    transition: 5s ease;
+    border-radius: 16px;
+    text-align: end;
+}
+
+.actuaproChangecss{
+    
+    width: 70%; 
+    transition: 10s ease;
+}
+
+.actualprojs{
+    background-color:yellow ;
+    width: 0%;
+    margin-top: 3px;
+    transition: 5s ease;
+    border-radius: 16px;
+    text-align: end;
+}
+
+.actuaproChangejs{
+    
+    width: 50%; 
+    transition: 10s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+   
+
+
+
+/* media query start from here */
+
+@media screen  and (max-width:800px){
+    .menuBar{ width: 300px;
+    height: 430px;
+    margin: 20px auto;
+    border-radius: 80px;
+    }
+
+    .menuBarChange{
+    
+        height: 0px;
+    }
+
+    .menu{
+        flex-direction: column;
+        position: relative;
+        left: -12px;
+    }
+
+    
+    
+
+    
+
+}
+
+@media screen  and (max-width:700px){
+     
+.progressHtml,.progressCss,.progressBootstrap,.progressJs{
+    
+
+    position: absolute;
+    right: 20px;
+    margin-left: 50px;
+    
+}
+
+}
+
+
+
+@media screen  and (max-width:671px) and (min-width: 526px){
+
+    .introHeading{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    
+    
+}
+
+
+
+@media screen  and (max-width:526px){
+    .introHeading{
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    
+}
+
+
+
+
+
+
+
