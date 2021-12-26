@@ -5,6 +5,11 @@ body {
     padding: 0px;
     box-sizing: border-box;
     overflow-x: hidden;
+    background: url('./IMAGES/mesh-background-portfolio-lglines.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   
 }
 
