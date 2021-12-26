@@ -140,6 +140,7 @@ body {
 .contactForm{
     width: 100%;
     margin: 50px;
+    
 }
 
 .name, .email{
@@ -158,21 +159,18 @@ body {
     background-color:rgb(222, 53, 53) ;
     font-weight: bolder;
     color: white;
-    position: absolute;
-    left: 47%;
-
+   
 }
 
 .submitbtn:hover{
   
     background-color:white ;
-    
     color: rgb(222, 53, 53);
 }
 
 .social{
-    position: absolute;
-    left: 42%;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .facebook, .linkedin, .twitter{
@@ -204,10 +202,7 @@ body {
 /* media query start from here */
 
 @media screen  and (max-width:1100px){
-    .social{
-        position: absolute;
-        left: 39%;
-    }
+    
 
 }
 
@@ -236,14 +231,8 @@ body {
         width: 80vw;
     }
 
-    .social{
-        position: absolute;
-        left: 38%;
-    }
-
     .contactForm{
         width: 80%;
-        margin: 50px;
     }
     
 
@@ -263,10 +252,7 @@ body {
         font-weight: bold;
     }
 
-    .social{
-        position: absolute;
-        left: 38%;
-    }
+    
 
     
     
@@ -280,10 +266,7 @@ body {
         font-weight: bold;
     }
 
-    .social{
-        position: absolute;
-        left: 28%;
-    }
+   
 
     
 }
