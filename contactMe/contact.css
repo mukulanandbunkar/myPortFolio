@@ -149,12 +149,12 @@ body {
 }
 
 .name, .email{
-    width: 80%;
+    width: 90%;
     border-radius: 16px;
 }
 
 .message {
-    width: 85%;
+    width: 95%;
     height: 168px;
     border-radius: 16px;
 }
@@ -179,7 +179,7 @@ body {
 }
 
 .facebook, .linkedin, .twitter{
-    margin-left:30px;
+    margin:0px 30px;
     color: #ff4444;
 }
 
