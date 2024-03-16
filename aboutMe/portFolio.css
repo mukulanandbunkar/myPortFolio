@@ -1,227 +1,189 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Pushster&family=Righteous&family=Space+Mono&family=Special+Elite&family=Work+Sans:wght@400;500;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Serif:wght@500&family=Merriweather:ital@0;1&family=Pushster&family=Righteous&family=Space+Mono&family=Special+Elite&family=Work+Sans:wght@400;500;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Pushster&family=Righteous&family=Space+Mono&family=Special+Elite&family=Work+Sans:wght@400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Serif:wght@500&family=Merriweather:ital@0;1&family=Pushster&family=Righteous&family=Space+Mono&family=Special+Elite&family=Work+Sans:wght@400;500;800&display=swap");
 body {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    background: url('./IMAGES/mesh-background-portfolio-lglines.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background: url("./IMAGES/mesh-background-portfolio-lglines.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.logoRow{
-    height: 100vh;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+.logoRow {
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
-.imageholder{
-    text-align: center;
-   
-    height: 250px;
-    width: 250px;
-   
-    overflow: hidden;
-    margin: 50px auto;
-    border: black 4px solid;
-    border-radius: 50%;
-   
+.imageholder {
+  text-align: center;
+
+  height: 250px;
+  width: 250px;
+
+  overflow: hidden;
+  margin: 50px auto;
+  border: black 4px solid;
+  border-radius: 50%;
 }
 
-.imageOfPerson{
-    position: relative;
-    top: -17px;
-    left: -20px;
-    height: 355px;
-    
+.imageOfPerson {
+  position: relative;
+  top: -17px;
+  left: -20px;
+  height: 355px;
 }
 
-.logo{
-    margin: 25px auto;
-  
-    
+.logo {
+  margin: 25px auto;
 }
 
-.introHeading{
-    font-family: 'Special Elite', sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    color: black;
-
+.introHeading {
+  font-family: "Special Elite", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: black;
 }
 
-.description{
-    width: 50vw;
-    margin: auto;
-    color: black;
-    font-family: 'IBM Plex Serif', serif;
-    font-size: large;
+.description {
+  width: 65vw;
+  margin: auto;
+  color: black;
+  /* font-family: 'IBM Plex Serif', serif; */
+  font-size: large;
+  font-family: "Special Elite", sans-serif;
+  font-weight: 500;
 }
 
-.menuBar{
-    background-color: rgb(222, 53, 53);
-    height: 200px;
-    width: 800px;
-    border: solid 2px black;
-    border-radius: 100px;
-    transition: 1s ease;
-    margin: 20px auto;
-
-
+.menuBar {
+  background-color: rgb(222, 53, 53);
+  height: 200px;
+  width: 800px;
+  border: solid 2px black;
+  border-radius: 100px;
+  transition: 1s ease;
+  margin: 20px auto;
 }
 
-.menuBarChange{
-    
-    height: 0px;
+.menuBarChange {
+  height: 0px;
 }
 
-
-.hamburgur{
-    
-    height: fit-content;
-    width: 50px;
-    text-align: center;
-    margin: 25px auto;
-    cursor: pointer;
-    
+.hamburgur {
+  height: fit-content;
+  width: 50px;
+  text-align: center;
+  margin: 25px auto;
+  cursor: pointer;
 }
 
-.box{
-    background-color: black;
-    margin: 2px;
-    height: 10px;
-    border-radius: 15px;
-    transition: 1s ease;
-    
+.box {
+  background-color: black;
+  margin: 2px;
+  height: 10px;
+  border-radius: 15px;
+  transition: 1s ease;
 }
 
-
-.box1change{
-    transform:translateY(16px) rotate(-45deg);
-    transition: 2s ease;
-    background-color:rgb(222, 53, 53);
+.box1change {
+  transform: translateY(16px) rotate(-45deg);
+  transition: 2s ease;
+  background-color: rgb(222, 53, 53);
 }
 
-.box3change{
-   display: none;
-   
+.box3change {
+  display: none;
 }
 
-.box2change{
-    transform:translateY(4px) rotate(45deg);
-    transition: 2s ease;
-    background-color:rgb(222, 53, 53);
+.box2change {
+  transform: translateY(4px) rotate(45deg);
+  transition: 2s ease;
+  background-color: rgb(222, 53, 53);
 }
 
-.menu
-{
-    font-family: 'IBM Plex Serif', serif;
-    color: white;
-    list-style: none;
-    position: relative;
-    left: 86px;
-    margin: 10px auto;
-    display: flex;
-    flex-direction: row;
-    top: 26px;
-    font-size: 25px;
-    font-weight: bold;
-   display: none;
-   
-    
-    
+.menu {
+  font-family: "IBM Plex Serif", serif;
+  color: white;
+  list-style: none;
+  position: relative;
+  left: 86px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  top: 26px;
+  font-size: 25px;
+  font-weight: bold;
+  display: none;
 }
 
-.menuItem{
-   margin: 10px;
-   padding: 5px;
-   border: 2px solid white;
-   border-radius: 11px;
-   cursor: pointer;
+.menuItem {
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 11px;
+  cursor: pointer;
 }
 
-.menuItem:hover{
-    padding: 5px;
-    background-color: white;
-   color:black ;
-   border-radius: 11px;
+.menuItem:hover {
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border-radius: 11px;
 }
 
-
-
-.CVdownload{
-    margin: 30px auto;
-    border-radius: 8px;
-    border: 2px solid;
-    color: rgb(222, 53, 53);
-    font-weight: 900;
-    display: none;
+.CVdownload {
+  margin: 30px auto;
+  border-radius: 8px;
+  border: 2px solid;
+  color: rgb(222, 53, 53);
+  font-weight: 900;
+  display: none;
 }
 
-.CVdownload:hover{
-    color: black;
-    background-color: white;
+.CVdownload:hover {
+  color: black;
+  background-color: white;
 }
-
-
-  
-   
-
-
 
 /* media query start from here */
 
-@media screen  and (max-width:800px){
-    .menuBar{ width: 300px;
+@media screen and (max-width: 800px) {
+  .menuBar {
+    width: 300px;
     height: 430px;
     margin: 20px auto;
     border-radius: 80px;
-    }
+  }
 
-    .menuBarChange{
-    
-        height: 0px;
-    }
+  .menuBarChange {
+    height: 0px;
+  }
 
-    .menu{
-        flex-direction: column;
-        position: relative;
-        left: -12px;
-    }
+  .menu {
+    flex-direction: column;
+    position: relative;
+    left: -12px;
+  }
 
-    .description{
-        width: 80vw;
-    }
-
-    
-
+  .description {
+    width: 80vw;
+  }
 }
 
-
-
-@media screen  and (max-width:671px) and (min-width: 526px){
-
-    .introHeading{
-        font-size: 1.5em;
-        font-weight: bold;
-    }
-
-    
-    
+@media screen and (max-width: 671px) and (min-width: 526px) {
+  .introHeading {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
 }
 
-
-
-@media screen  and (max-width:526px){
-    .introHeading{
-        font-size: 1em;
-        font-weight: bold;
-    }
-
-    
+@media screen and (max-width: 526px) {
+  .introHeading {
+    font-size: 1em;
+    font-weight: bold;
+  }
 }
