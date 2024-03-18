@@ -33,9 +33,10 @@ body {
 
 .imageOfPerson {
   position: relative;
-  top: -17px;
-  left: -20px;
-  height: 355px;
+  top: -1px;
+  left: -4px;
+  height: 272px;
+  background: #dc3545 !important;
 }
 
 .logo {
